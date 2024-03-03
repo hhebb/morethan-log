@@ -37,7 +37,7 @@ export const Global = () => {
 
         a {
           all: unset;
-          cursor: pointer;
+          cursor: url(https://cur.cursors-4u.net/cursors/cur-11/cur1036.cur);
         }
 
         ul {
