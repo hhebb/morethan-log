@@ -18,9 +18,9 @@ export const Global = () => {
           font-weight: ${pretendard.style.fontWeight};
           font-style: ${pretendard.style.fontStyle};
           cursor: {
-            0% {cursor: url(./cursor_ani/frame_00_delay-0.01s.png), auto;}
-            50% {cursor: url(./cursor_ani/frame_10_delay-0.01s.png), auto;}
-            100% {cursor: url(./cursor_ani/frame_20_delay-0.01s.png), auto;}
+            0% {cursor: url(frame_00_delay-0.01s.png), auto;}
+            50% {cursor: url(frame_10_delay-0.01s.png), auto;}
+            100% {cursor: url(frame_20_delay-0.01s.png), auto;}
           };
         }        
 
