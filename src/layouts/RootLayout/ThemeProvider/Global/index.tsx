@@ -17,7 +17,7 @@ export const Global = () => {
           font-family: ${pretendard.style.fontFamily};
           font-weight: ${pretendard.style.fontWeight};
           font-style: ${pretendard.style.fontStyle};
-          cursor: url(https://cur.cursors-4u.net/nature/nat-6/nat600.cur), auto !important;
+          cursor: url(https://cur.cursors-4u.net/others/oth-1/oth1.ani), url(https://cur.cursors-4u.net/others/oth-1/oth1.png), auto !important;
         }
 
         * {
