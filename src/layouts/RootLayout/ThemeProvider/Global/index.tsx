@@ -17,28 +17,12 @@ export const Global = () => {
           font-family: ${pretendard.style.fontFamily};
           font-weight: ${pretendard.style.fontWeight};
           font-style: ${pretendard.style.fontStyle};
-          cursor: none;
+          cursor: url(frame_00_delay-0.01s.png), auto !important;
         }
 
         * {
           color-scheme: ${theme.scheme};
           box-sizing: border-box;
-          cursor: url(frame1.png), auto;
-          -webkit-animation: cursor 400ms infinite;
-          animation: cursor 400ms infinite;
-
-        }
-
-        @-webkit-keyframes cursor {
-          0% {cursor: url(frame_00_delay-0.01s.png), auto;}
-          50% {cursor: url(frame_10_delay-0.01s.png), auto;}
-          100% {cursor: url(frame_20_delay-0.01s.png), auto;}
-        } 
-        
-        @keyframes cursor {
-          0% {cursor: url(frame_00_delay-0.01s.png), auto;}
-          50% {cursor: url(frame_10_delay-0.01s.png), auto;}
-          100% {cursor: url(frame_20_delay-0.01s.png), auto;}
         }
 
         h1,
