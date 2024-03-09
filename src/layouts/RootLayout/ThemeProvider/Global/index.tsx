@@ -17,7 +17,7 @@ export const Global = () => {
           font-family: ${pretendard.style.fontFamily};
           font-weight: ${pretendard.style.fontWeight};
           font-style: ${pretendard.style.fontStyle};
-          cursor: url(frame_00_delay-0.01s.png), auto !important;
+          cursor: url(/frame_00_delay-0.01s.png), auto !important;
         }
 
         * {
