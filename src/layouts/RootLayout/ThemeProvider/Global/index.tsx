@@ -18,16 +18,10 @@ export const Global = () => {
           font-weight: ${pretendard.style.fontWeight};
           font-style: ${pretendard.style.fontStyle};
           cursor: url(https://cur.cursors-4u.net/nature/nat-6/nat600.cur), auto !important;
+          -webkit-animation: cursor 1000ms infinite;
+          animation: cursor 1000ms infinite;
+  
         }
-
-        * {
-        color-scheme: ${theme.scheme};
-        box-sizing: border-box;
-        cursor: url(frame1.png), auto;
-        -webkit-animation: cursor 1000ms infinite;
-        animation: cursor 1000ms infinite;
-
-      }
 
       @-webkit-keyframes cursor {
         0% {cursor: url(/cursor_ani/frame_00_delay-0.01s.png), auto;}
