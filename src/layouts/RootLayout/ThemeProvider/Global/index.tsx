@@ -30,15 +30,15 @@ export const Global = () => {
         }
 
         @-webkit-keyframes cursor {
-          0% {cursor: url(cursor_ani/frame_00_delay-0.01s.png), auto;}
-          50% {cursor: url(cursor_ani/frame_10_delay-0.01s.png), auto;}
-          100% {cursor: url(cursor_ani/frame_20_delay-0.01s.png), auto;}
+          0% {cursor: url(./cursor_ani/frame_00_delay-0.01s.png), auto;}
+          50% {cursor: url(./cursor_ani/frame_10_delay-0.01s.png), auto;}
+          100% {cursor: url(./cursor_ani/frame_20_delay-0.01s.png), auto;}
         } 
         
         @keyframes cursor {
-          0% {cursor: url(cursor_ani/frame_00_delay-0.01s.png), auto;}
-          50% {cursor: url(cursor_ani/frame_10_delay-0.01s.png), auto;}
-          100% {cursor: url(cursor_ani/frame_20_delay-0.01s.png), auto;}
+          0% {cursor: url(./cursor_ani/frame_00_delay-0.01s.png), auto;}
+          50% {cursor: url(./cursor_ani/frame_10_delay-0.01s.png), auto;}
+          100% {cursor: url(./cursor_ani/frame_20_delay-0.01s.png), auto;}
         }
         
 
