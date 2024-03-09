@@ -17,7 +17,7 @@ export const Global = () => {
           font-family: ${pretendard.style.fontFamily};
           font-weight: ${pretendard.style.fontWeight};
           font-style: ${pretendard.style.fontStyle};
-          cursor: url(https://cur.cursors-4u.net/nature/nat-6/nat600.cur), auto !important;
+          cursor: auto !important;
           -webkit-animation: cursor 1000ms infinite;
           animation: cursor 1000ms infinite;
   
@@ -91,7 +91,7 @@ export const Global = () => {
 
         a {
           all: unset;
-          cursor: pointer;
+          cursor: url(https://cur.cursors-4u.net/nature/nat-6/nat600.cur), auto !important;
         }
 
         ul {
