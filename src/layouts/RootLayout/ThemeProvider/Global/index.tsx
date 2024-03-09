@@ -30,15 +30,15 @@ export const Global = () => {
         }
 
         @-webkit-keyframes cursor {
-          0% {cursor: url(https://cur.cursors-4u.net/others/oth-1/oth1.png), auto;}
-          50% {cursor: url(https://cur.cursors-4u.net/nature/nat-7/nat601.cur), auto;}
-          100% {cursor: url(https://cur.cursors-4u.net/nature/nat-6/nat597.cur), auto;}
+          0% {cursor: url(cursor_ani/jupyter-0000.jpg), auto;}
+          50% {cursor: url(cursor_ani/jupyter-0010.jpg), auto;}
+          100% {cursor: url(cursor_ani/jupyter-0020.jpg), auto;}
         } 
         
         @keyframes cursor {
-          0% {cursor: url(https://cur.cursors-4u.net/others/oth-1/oth1.png), auto;}
-          50% {cursor: url(https://cur.cursors-4u.net/nature/nat-7/nat601.cur), auto;}
-          100% {cursor: url(https://cur.cursors-4u.net/nature/nat-6/nat597.cur), auto;}
+          0% {cursor: url(cursor_ani/jupyter-0000.jpg), auto;}
+          50% {cursor: url(cursor_ani/jupyter-0010.jpg), auto;}
+          100% {cursor: url(cursor_ani/jupyter-0020.jpg), auto;}
         }
         
 
