@@ -17,13 +17,30 @@ export const Global = () => {
           font-family: ${pretendard.style.fontFamily};
           font-weight: ${pretendard.style.fontWeight};
           font-style: ${pretendard.style.fontStyle};
-          cursor: url(https://cur.cursors-4u.net/others/oth-1/oth1.ani), url(https://cur.cursors-4u.net/others/oth-1/oth1.png), auto !important;
+          cursor: none;
         }
 
         * {
           color-scheme: ${theme.scheme};
           box-sizing: border-box;
+          cursor: url(frame1.png), auto;
+          -webkit-animation: cursor 400ms infinite;
+          animation: cursor 400ms infinite;
+
         }
+
+        @-webkit-keyframes cursor {
+          0% {cursor: url(https://cur.cursors-4u.net/others/oth-1/oth1.png), auto;}
+          50% {cursor: url(https://cur.cursors-4u.net/nature/nat-7/nat601.cur), auto;}
+          100% {cursor: url(https://cur.cursors-4u.net/nature/nat-6/nat597.cur), auto;}
+        } 
+        
+        @keyframes cursor {
+          0% {cursor: url(https://cur.cursors-4u.net/others/oth-1/oth1.png), auto;}
+          50% {cursor: url(https://cur.cursors-4u.net/nature/nat-7/nat601.cur), auto;}
+          100% {cursor: url(https://cur.cursors-4u.net/nature/nat-6/nat597.cur), auto;}
+        }
+        
 
         h1,
         h2,
