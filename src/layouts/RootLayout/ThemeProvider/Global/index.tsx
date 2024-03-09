@@ -24,8 +24,8 @@ export const Global = () => {
         color-scheme: ${theme.scheme};
         box-sizing: border-box;
         cursor: url(frame1.png), auto;
-        -webkit-animation: cursor 400ms infinite;
-        animation: cursor 400ms infinite;
+        -webkit-animation: cursor 1000ms infinite;
+        animation: cursor 1000ms infinite;
 
       }
 
