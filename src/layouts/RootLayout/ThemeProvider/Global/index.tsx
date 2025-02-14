@@ -98,7 +98,7 @@ export const Global = () => {
           font-style: inherit;
         }
 
-        a {
+        a .notion-row .tags {
           all: unset;
           cursor: url(https://cur.cursors-4u.net/nature/nat-6/nat600.cur), auto !important;
         }
