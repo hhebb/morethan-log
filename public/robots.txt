@@ -2,8 +2,5 @@
 User-agent: *
 Allow: /
 
-# Host
-Host: https://hhebb.vercel.app
-
 # Sitemaps
-Sitemap: https://hhebb.vercel.app/sitemap.xml
+Sitemap: https://hebb0.vercel.app/sitemap.xml
