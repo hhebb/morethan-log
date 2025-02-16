@@ -4,16 +4,16 @@ const CONFIG = {
     name: "hhebb",
     image: "/astro_color.png", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "graduate student",
-    bio: "Interested in AI, Simulation",
+    bio: "Interested in AI, RL, GameDev",
     email: "igotaspot426@gmail.com",
-    linkedin: "...",
+    linkedin: "https://www.linkedin.com/in/minsu-kim-4652b3198/",
     github: "https://github.com/hhebb",
     instagram: "",
   },
   projects: [
     {
-      name: `hhebb`,
-      href: "https://github.com/morethanmin/morethan-log",
+      // name: `hhebb`,
+      // href: "https://github.com/morethanmin/morethan-log",
     },
   ],
   // blog setting (required)
@@ -54,7 +54,7 @@ const CONFIG = {
     },
   },
   utterances: {
-    enable: false,
+    enable: true,
     config: {
       repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO || "",
       "issue-term": "og:title",
@@ -62,7 +62,7 @@ const CONFIG = {
     },
   },
   cusdis: {
-    enable: true,
+    enable: false,
     config: {
       host: "https://cusdis.com",
       appid: "", // Embed Code -> data-app-id value
