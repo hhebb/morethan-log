@@ -6,8 +6,8 @@ const CONFIG = {
     role: "graduate student",
     bio: "Interested in AI, RL, GameDev",
     email: "igotaspot426@gmail.com",
-    linkedin: "https://www.linkedin.com/in/minsu-kim-4652b3198/",
-    github: "https://github.com/hhebb",
+    linkedin: "minsu-kim-4652b3198",
+    github: "hhebb",
     instagram: "",
   },
   projects: [
